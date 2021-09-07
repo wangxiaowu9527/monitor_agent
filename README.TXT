@@ -4,9 +4,8 @@
 使用方法：
 （1）安装Python3环境
 （2）下载代码，进入到项目目录下，执行：pip3 install -r requirements.txt
-（3）启动：Linux系统执行 start_main.sh
-         Windows系统执行 start_main.bat
-         若不考虑性能，可直接执行 python3 main.py
+（3）启动：若不考虑性能，可直接执行 python3 main.py
+         Linux建议uwsgi执行
 ---------------------------------------------------------------
 
 1、设计思路：将监控项以接口形式暴露(json格式)，需求方直接发送GET请求即可 

@@ -6,4 +6,3 @@ redis==3.5.3
 requests==2.26.0
 jmxquery==0.6.0
 kubernetes==18.20.0
-uwsgi==2.0.19.1
